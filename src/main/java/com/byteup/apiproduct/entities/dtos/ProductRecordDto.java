@@ -1,8 +1,10 @@
 package com.byteup.apiproduct.entities.dtos;
 
+import jakarta.validation.constraints.NotNull;
+
 import java.io.Serializable;
 import java.util.Date;
 
-public record ProductRecordDto(String name, Date expirationDate, Float price, int quantity) implements Serializable {
+public record ProductRecordDto(@NotNull String name,@NotNull Date expirationDate,@NotNull Float price,@NotNull int quantity) implements Serializable {
 }
 

@@ -14,6 +14,6 @@ class SwaggerConfig {
                 .info(new Info()
                         .title("Product API")
                         .version("1.0.0")
-                        .description("ihhhhhuuu"));
+                        .description("controle de produtos"));
     }
 }
